@@ -1,0 +1,84 @@
+body{
+  box-sizing: border-box;
+  font-family: sans-serif;
+
+}
+h1{
+  display: block;
+  width: 50%;
+  text-align: center;
+  background-color:rgb(169, 245, 173);
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.countUp{
+  background-color:rgb(12, 128, 73);
+  border-radius: 4px;
+  padding: 12px;
+}
+h2{
+  text-align: center;
+}
+.header{
+  display: inline-block;
+}
+li{
+  display: inline-block;
+  width: 33%;
+  text-align: center;
+}
+ul{
+  width: 99%;
+  background-color:rgb(169, 245, 173);
+  padding: 4px;
+  border-radius:4px;
+  margin-left: auto;
+  margin-right: auto;
+}
+ul li a{
+  display: inline-block;
+  width: 40%;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 4px;
+
+}
+
+.active{
+  background-color:rgb(26, 148, 26);
+}
+textarea{
+  display: block;
+  width: 50%;
+  border-radius:3px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.timer{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 5px;
+}
+button{
+  background-color:rgb(144, 241, 131);
+  margin:auto;
+  border-radius: 5px;
+  color: rgb(75, 114, 4);
+  font-weight: bold;
+  padding: 8px;
+  font-size: 1.2em;
+  transition: color .2s ease-in, background-color .2s ease-out, border-radius 1s ease;
+}
+button:hover{
+color: rgb(100, 237, 207);
+background-color: rgb(50, 167, 235);
+border-radius: 100%;
+}
+footer{
+  display: block;
+  margin: auto;
+  text-align: center;
+}
